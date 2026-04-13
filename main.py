@@ -7,7 +7,7 @@ import networkx as nx
 from collections import Counter
 from itertools import combinations
 import matplotlib.pyplot as plt
-import jieba 
+import jieba  # 新增：用于标题分词
 
 from pyecharts import options as opts
 from pyecharts.charts import Line, WordCloud, Bar, Pie  # 新增：词云、柱状图、饼图
@@ -190,7 +190,12 @@ class PatentProcessor:
         words = jieba.lcut(text)
         
         # 定义要屏蔽的无意义词汇
-        stop_words = {"一种", "装置", "方法", "系统", "设备", "用于", "及其", "基于", "的", "和", "与", "在", "中", "其", "及", "了", "进行", "实现"}
+        stop_words = {# 中文无关词
+        "一种", "装置", "方法", "系统", "设备", "用于", "及其", "基于", "的", "和", "与", "在", "中", "其", "及", "了", "进行", "实现",
+        # 英文无关词 
+        "and", "of", "for", "with", "is", "in", "to", "has", "as", "at", "on", "by", "from", "which", "the", "are", "that", "whose",
+        "comprises", "comprising", "provided", "used", "using", "involves", "containing", "connected", "comprising", 
+        "system", "method", "device", "unit", "module", "part"}
         
         # 过滤单字和停用词
         word_counts = Counter([w for w in words if len(w) > 1 and w not in stop_words])
@@ -311,7 +316,7 @@ def main():
     print("启动专利分析流水线...")
     
     # 1. 初始化
-    miner = PatentMiner(input_dir='.')
+    miner = PatentMiner(input_dir='my_patents')
     df_clean = miner.batch_process()
     
     if df_clean.empty:
