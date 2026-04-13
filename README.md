@@ -49,7 +49,7 @@ PatentSmelter 是一个面向专利文本批量分析与可视化的轻量化流
 确保已安装 Python 3.8 及以上版本，然后安装依赖包：
 
 bash
-`pip install pandas networkx matplotlib wordcloud`
+`pip install pandas networkx matplotlib wordcloud jieba pyecharts numpy`
 
 ### 2. 准备数据
 
