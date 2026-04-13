@@ -1,4 +1,6 @@
-pandas
+jieba
+pyecharts
 networkx
+pandas
+numpy
 matplotlib
-workcloud
