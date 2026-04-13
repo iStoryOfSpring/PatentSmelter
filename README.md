@@ -100,6 +100,6 @@ python main.py
 
 本项目基于 MIT License 开源。详情见 LICENSE 文件。
 
-### 作者声明
+## 作者声明
 
 作者本人始终坚持一个中国原则，HK,MO,TW均被视为CN的一部分，即归类为Region而不是Country.
