@@ -1,0 +1,24 @@
+2026-04-13 22:23:02,950 - Building prefix dict from the default dictionary ...
+2026-04-13 22:23:03,124 - Dumping model to file cache /var/folders/bn/gfm875dj4rb0y9gqcmsqlnjc0000gn/T/jieba.cache
+2026-04-13 22:23:03,143 - Loading model cost 0.193 seconds.
+2026-04-13 22:23:03,143 - Prefix dict has been built successfully.
+2026-04-13 22:47:22,418 - Building prefix dict from the default dictionary ...
+2026-04-13 22:47:22,419 - Loading model from cache /var/folders/bn/gfm875dj4rb0y9gqcmsqlnjc0000gn/T/jieba.cache
+2026-04-13 22:47:22,639 - Loading model cost 0.220 seconds.
+2026-04-13 22:47:22,639 - Prefix dict has been built successfully.
+2026-04-13 22:52:47,761 - Building prefix dict from the default dictionary ...
+2026-04-13 22:52:47,762 - Loading model from cache /var/folders/bn/gfm875dj4rb0y9gqcmsqlnjc0000gn/T/jieba.cache
+2026-04-13 22:52:47,976 - Loading model cost 0.215 seconds.
+2026-04-13 22:52:47,976 - Prefix dict has been built successfully.
+2026-04-13 22:56:38,369 - Building prefix dict from the default dictionary ...
+2026-04-13 22:56:38,370 - Loading model from cache /var/folders/bn/gfm875dj4rb0y9gqcmsqlnjc0000gn/T/jieba.cache
+2026-04-13 22:56:38,596 - Loading model cost 0.226 seconds.
+2026-04-13 22:56:38,596 - Prefix dict has been built successfully.
+2026-04-13 22:57:00,566 - Building prefix dict from the default dictionary ...
+2026-04-13 22:57:00,566 - Loading model from cache /var/folders/bn/gfm875dj4rb0y9gqcmsqlnjc0000gn/T/jieba.cache
+2026-04-13 22:57:00,788 - Loading model cost 0.222 seconds.
+2026-04-13 22:57:00,788 - Prefix dict has been built successfully.
+2026-04-15 14:12:24,591 - Building prefix dict from the default dictionary ...
+2026-04-15 14:12:24,591 - Loading model from cache /var/folders/bn/gfm875dj4rb0y9gqcmsqlnjc0000gn/T/jieba.cache
+2026-04-15 14:12:24,816 - Loading model cost 0.225 seconds.
+2026-04-15 14:12:24,816 - Prefix dict has been built successfully.
