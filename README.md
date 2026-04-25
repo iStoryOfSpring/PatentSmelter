@@ -2,7 +2,7 @@
 
 **PatentSmelter** is a lightweight analytical pipeline that transforms raw patent export files from Web of Science (Clarivate) into structured data, insightful visualizations, and exportable reports. It supports both an interactive Streamlit UI and a headless CLI mode.
 
-English | [中文](#chinese)
+[English](#english) | [中文](#chinese)
 
 ---
 
@@ -60,6 +60,8 @@ PatentSmelter/
 本项目基于 MIT License 开源。详情见 `LICENSE` 文件。
 
 ---
+
+<div id="english"></div>
 
 ## English
 
