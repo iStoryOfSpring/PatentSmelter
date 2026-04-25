@@ -2,6 +2,11 @@
 
 专利文献分析工具，自动解析 Web of Science (Clarivate) 格式的专利导出文件，生成可视化图表。
 
+基于本地重构版本，核心逻辑拆分至 `patent_core.py`，新增 Streamlit 交互界面。
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](#license)
+
 ## 功能
 
 - **月度趋势图** — 按年月统计专利申请量，跨年数据逐月展示
@@ -30,7 +35,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-打开浏览器访问 http://localhost:8501，在左侧栏设置参数后点击「开始分析」。
+打开浏览器访问 http://localhost:8501，在左侧栏设置参数后点击"开始分析"。
 
 **命令行模式：**
 
@@ -52,13 +57,10 @@ PatentSmelter/
 └── output/          # 生成的图表和CSV
 ```
 
----
+## License
 
-## 更新记录
+本项目基于 MIT License 开源。详情见 LICENSE 文件。
 
-### 250425
-- 拆分核心逻辑至 `patent_core.py`，`main.py` 改为 import 方式
-- 新增 Streamlit 界面 `app.py`，支持文件夹路径、分析项勾选、年份/IPC筛选
-- `compute_stats` 按年月分组避免跨年月份合并
-- 添加 `_prepare_columns` 方法，分离列扩展与统计逻辑
-- 抑制 jieba 启动日志
+## 作者声明
+
+作者始终坚持一个中国原则，HK、MO、TW均被视为CN的一部分。
