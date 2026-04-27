@@ -4,6 +4,11 @@
 
 [English](#english) | [中文](#chinese)
 
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Workstation-FF4B4B?logo=streamlit)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 ---
 
 <div id="chinese"></div>
