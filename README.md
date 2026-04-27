@@ -36,7 +36,7 @@ PatentSmelter 是一个面向专利文本批量分析与可视化的轻量化流
 # 1. 安装依赖
 pip install -r requirements.txt
 
-# 2. 将 Web of Science 导出的 .txt 文件放入 my_patents/ 目录
+# 2. 将 Web of Science 导出的 .txt 文件放入 my_patents/ 目录（先新建名称为my_patents的文件夹)
 
 # 3a. Streamlit 界面（推荐）
 streamlit run app.py
@@ -169,7 +169,7 @@ PatentSmelter ingests semi-structured patent text files exported from Web of Sci
 # 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Place Web of Science .txt files into my_patents/
+# 2. Place Web of Science .txt files into my_patents/ （create a new folder names 'my_patents' ）
 
 # 3a. Streamlit UI (recommended)
 streamlit run app.py
