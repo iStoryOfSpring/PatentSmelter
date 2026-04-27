@@ -46,6 +46,8 @@ streamlit run app.py
 python main.py
 ```
 
+**注意，绝大多数情况下用3a方法就够了，不得已才用3b**
+
 #### Streamlit 界面使用
 
 启动 `streamlit run app.py` 后，终端会显示双语提示：
