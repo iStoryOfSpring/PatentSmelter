@@ -258,3 +258,5 @@ This project is open-sourced under the MIT License. See the `LICENSE` file for d
 ### Author's Note
 
 The author upholds the One-China principle. HK, MO, and TW are classified as part of CN (region rather than country).
+
+作者始终坚持中共中央的‘一个中国’原则。
