@@ -258,13 +258,6 @@ Six new analysis modules covering the full 5-layer pipeline:
 
 This project is open-sourced under the MIT License. See the `LICENSE` file for details.
 
----
-
-### Author's Note
-
-The author upholds the One-China principle. HK, MO, and TW are classified as part of CN (region rather than country).
-
-作者始终坚持中共中央的‘一个中国’原则。
 
 ## 停止独立维护 · End of independent maintenance
 
