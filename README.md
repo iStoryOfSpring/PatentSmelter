@@ -265,3 +265,9 @@ This project is open-sourced under the MIT License. See the `LICENSE` file for d
 The author upholds the One-China principle. HK, MO, and TW are classified as part of CN (region rather than country).
 
 作者始终坚持中共中央的‘一个中国’原则。
+
+## 停止独立维护 · End of independent maintenance
+
+PatentSmelter 已结束独立开发与维护，现有代码和历史保留供查阅。后续功能开发、问题反馈与修复集中到 [PatentAgent](https://github.com/iStoryOfSpring/PatentAgent)。如需继续分析，请在 PatentAgent 中重新导入获授权使用的原始文件。旧版输出可保留作历史记录。
+
+Independent development and maintenance of PatentSmelter have ended. This repository remains available as a historical reference. New development, issue reporting, and fixes continue in [PatentAgent](https://github.com/iStoryOfSpring/PatentAgent). To continue an analysis, re-import authorized source files into PatentAgent. Existing outputs can be kept for reference.
